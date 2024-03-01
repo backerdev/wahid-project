@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .filter-bg {
+    filter: drop-shadow(5px 5px 5px #3b372a);
+  }
+}
