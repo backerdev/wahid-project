@@ -5,7 +5,11 @@ export default {
     fontFamily: {
       sans: "Quicksand, sans-serif",
     },
-    extend: {},
+    extend: {
+      animation: {
+        "spin-slow": "spin 80s linear infinite",
+      },
+    },
   },
   plugins: [],
 };
